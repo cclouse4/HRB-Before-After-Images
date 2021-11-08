@@ -1,0 +1,15 @@
+{
+	"name": "hrb/before-after-images",
+	"type": "wordpress-plugin",
+	"description": "Compare before and after images with this slider.",
+	"scripts": {
+		"format": "phpcbf --standard=phpcs.ruleset.xml --report-summary --report-source --ignore=/dist/",
+		"lint": "phpcs --standard=phpcs.ruleset.xml --ignore=/dist/",
+		"post-install-cmd": [
+			"[ -f vendor/bin/phpcs ] && \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs || true"
+		],
+		"post-update-cmd": [
+			"[ -f vendor/bin/phpcs ] && \"vendor/bin/phpcs\" --config-set installed_paths vendor/wp-coding-standards/wpcs || true"
+		]
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"name": "hrb-before-after-images",
+	"version": "1.0.0",
+	"description": "Compare before and after images with this slider.",
+	"main": "dist/index.js",
+	"author": "Cassie Clouse",
+	"scripts": {
+		"build": "wp-scripts build",
+		"check-engines": "wp-scripts check-engines",
+		"check-licenses": "wp-scripts check-licenses",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"start": "wp-scripts start",
+		"test:e2e": "wp-scripts test-e2e",
+		"test:unit": "wp-scripts test-unit-js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+    	"build:scripts": "wp-scripts build",
+    	"build:scripts:watch": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^5.0.0",
+		"classnames": "^2.2.6",
+		"css-loader": "^3.2.0",
+		"mini-css-extract-plugin": "^0.8.0",
+		"node-sass": "^4.14.1",
+		"postcss-loader": "^3.0.0",
+		"sass-loader": "^8.0.0",
+		"webpack": "^4.41.0",
+		"webpack-rtl-plugin": "^2.0.0"
+	}
+}

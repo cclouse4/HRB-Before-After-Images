@@ -1,0 +1,4 @@
+name: hrb-before-after-images
+recipe: wordpress
+config:
+  webroot: .lando/wordpress

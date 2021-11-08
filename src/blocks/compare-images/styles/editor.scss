@@ -1,0 +1,31 @@
+#editor .wp-block-hrb-before-after-images {
+
+	&__comparison-wrapper--is-image-missing {
+
+		display: flex;
+		flex-direction: column;
+
+		.wp-block-hrb-before-after-images__before-image {
+			margin-bottom: 10px;
+			height: auto;
+			position: relative;
+		}
+
+		.wp-block-hrb-before-after-images__after-image {
+			height: auto;
+			position: relative;
+		}
+
+	}
+
+	&__divider,
+	&__handler {
+		cursor: default;
+		opacity: 1;
+	}
+
+}
+
+#editor .edit-before-image svg {
+	transform: rotateY(180deg);
+}

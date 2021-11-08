@@ -1,0 +1,12 @@
+wp-includes/
+wp-admin/
+wp-content/themes/twentynineteen/
+wp-content/themes/twentytwenty/
+wp-content/plugins/
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/themes/chemistry2020/node_modules/
+.maintenance
+*.log
+wp-content/themes/block-advisors-2021/node_modules/
+.DS_Store
